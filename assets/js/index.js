@@ -57,6 +57,7 @@ function playMusic() {
   if (player.paused) {
     player.play();
     updateIcon(true);
+    player.volume = 0.2;
   }
 }
 
