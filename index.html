@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VARIABLE</title>
+    <link rel="stylesheet" href="./assets/css/reset.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="logo-container">
+        <h1 class="logo-text">VARIABLE</h1>
+      </div>
+      <p class="subtitle">
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s.
+      </p>
+      <button class="btn" id="transition-button" onclick="playMusic()">
+        Join Now
+        <div class="btn-arrow">
+          <img src="./assets/images/arrow-icon.svg" alt="" />
+        </div>
+      </button>
+    </main>
+    <main class="second-container">
+      <section class="top" id="header">
+        <div class="top-section">
+          <h6 class="logo-text second-logo">VARIABLE</h6>
+          <div class="socials-container">
+            <a class="social-item" href="#" target="_blank"
+              ><img src="./assets/images/twitter-logo.svg" alt=""
+            /></a>
+            <a class="social-item" href="#" target="_blank"
+              ><img src="./assets/images/telegram-logo.svg" alt=""
+            /></a>
+            <a class="social-item" href="#" target="_blank"
+              ><img src="./assets/images/dex-logo.svg" alt=""
+            /></a>
+            <a class="social-item" href="#" target="_blank"
+              ><img src="./assets/images/pf-logo.svg" alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+      <div class="bg-image">
+        <img src="./assets/images/bg-image.png" alt="" />
+      </div>
+      <button class="btn sound-button" onclick="">
+        <img src="./assets/images/audio-icon.svg" alt="" />
+      </button>
+      <audio id="player" src="./assets/audio/audio.mp3" loop></audio>
+      <section class="bottom" id="footer">
+        <p class="subtitle">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s.
+        </p>
+        <label class="input-label">
+          <input
+            class="main-input"
+            type="text"
+            placeholder="sample"
+            id="copyInput"
+            readonly=""
+            value="text"
+          />
+          <button class="main-input_button" id="copyButton">
+            <img src="./assets/images/copy-icon.svg" alt="Copy" />
+          </button>
+        </label>
+      </section>
+    </main>
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/tippy-bundle.umd.min.js"></script>
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
